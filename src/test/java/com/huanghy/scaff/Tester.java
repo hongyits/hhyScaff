@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = HhyScaffApplication.class)
+@SpringBootTest(classes = AutoSSOApplication.class)
 public class Tester {
 
 

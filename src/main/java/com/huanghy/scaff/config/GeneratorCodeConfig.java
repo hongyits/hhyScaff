@@ -47,12 +47,13 @@ public class GeneratorCodeConfig {
         gc.setSwagger2(false);
         mpg.setGlobalConfig(gc);
 
-        // 数据源配置
+        // 数据源配置q
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/huanghy?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true");
+//        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/autoSSO?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true");
+        dsc.setUrl("jdbc:mysql://39.108.104.115:3306/autosso?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("hongyits");
+        dsc.setPassword("Hongyits123.");
         mpg.setDataSource(dsc);
 
         // 包配置

@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.huanghy.scaff.mapper")
-public class HhyScaffApplication {
+public class AutoSSOApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(HhyScaffApplication.class, args);
+        SpringApplication.run(AutoSSOApplication.class, args);
     }
 
 }
